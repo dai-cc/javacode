@@ -12,7 +12,7 @@ package com.dai;
 */
 public class Solution {
 
-        public static boolean isPalindrome1(String s) {
+/*        public static boolean isPalindrome1(String s) {
             int i = 0, j = s.length() - 1;
             while(i < j){
                 while(i < j && !numOrWord(s.charAt(i))) i++;
@@ -22,6 +22,10 @@ public class Solution {
             }
             return true;
         }
+         public static boolean numOrWord(char ch){
+        if((ch >='0'&&ch <= '9')||(ch >= 'a' && ch <= 'z')||(ch >='A' && ch <= 'Z')){ return true; }
+        return false;
+    }*/
 
 
 
@@ -37,35 +41,36 @@ public class Solution {
         int j = s.length()-1;
         boolean flag = false;
         while(i < j){
-            while(i<j && !numOrWord(s.charAt(i))){
-                i++;
+            while(i<j && numOrWord(s.charAt(i))==-1){ i++; }
+            while(i<j && numOrWord(s.charAt(j))==-1){ j--; }
+            //if(s.charAt(i)==s.charAt(j)+32||s.charAt(i)==s.charAt(j)-32) 不能直接这样去判断，因为这样忽略了'0'+32='P'这种情况
+            //如果两个都是字母可以这样比较
+            if(numOrWord(s.charAt(i))==numOrWord(s.charAt(j))){
+                //两个同时为数字/字母
+                if(s.charAt(i)==s.charAt(j)||s.charAt(i)==s.charAt(j)+32||s.charAt(i)==s.charAt(j)-32){
+                    i++;
+                    j--;
+                    flag = true;
+                }
             }
-            while(i<j && !numOrWord(s.charAt(j))){
-                j--;
-            }
-            if(s.charAt(i)==s.charAt(j)+32||s.charAt(i)==s.charAt(j)-32){
-                i++;
-                j--;
-                flag = true;
-            }
+            //如果一个字母一个数字则直接return false
             if(s.charAt(i)!=s.charAt(j) && !flag){
                 return false;
             }
-            if(s.charAt(i)==s.charAt(j)){
+            /*if(s.charAt(i)==s.charAt(j)){
                 i++;
                 j--;
-            }
+            }*/
         }
         return true;
     }
-    public static boolean numOrWord(char ch){
-        if((ch >='0'&&ch <= '9')||(ch >= 'a' && ch <= 'z')||(ch >='A' && ch <= 'Z')){
-            return true;
-        }
-        return false;
+    public static int numOrWord(char ch){
+        if(ch >='0'&&ch <= '9'){ return 1; }
+        else if((ch >= 'a' && ch <= 'z')||(ch >='A' && ch <= 'Z')){return 0;}
+        return -1;
     }
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome(".,"));
+        System.out.println(isPalindrome("1Q"));
     }
 }

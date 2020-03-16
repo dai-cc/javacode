@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c533d33b-e369-4c8c-837f-842d6b0c8af6" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mySignalList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="method#addFirst#0;class#MySinalList#0" />
+                <element signature="method#addLast#0;class#MySinalList#0" />
+                <element signature="method#getPre#0;class#MySinalList#0" />
+                <element signature="method#addIndex#0;class#MySinalList#0" />
+                <element signature="method#contains#0;class#MySinalList#0" />
+                <element signature="method#getPre1#0;class#MySinalList#0" />
+                <element signature="method#remove#0;class#MySinalList#0" />
+                <element signature="method#removeAllKey#0;class#MySinalList#0" />
+                <element signature="method#getLength#0;class#MySinalList#0" />
+                <element signature="method#display1#0;class#MySinalList#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MyList/src/com/dai/test.java" />
+        <option value="$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="984" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyList" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dai.test" />
+      <module name="MyList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c533d33b-e369-4c8c-837f-842d6b0c8af6" name="Default" comment="" />
+      <created>1573726795565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573726795565</updated>
+      <workItem from="1573726797863" duration="3499000" />
+      <workItem from="1573783554598" duration="6641000" />
+      <workItem from="1573865818985" duration="1539000" />
+      <workItem from="1573878514830" duration="1061000" />
+      <workItem from="1573886144225" duration="595000" />
+      <workItem from="1573992341646" duration="368000" />
+      <workItem from="1574074034210" duration="5423000" />
+      <workItem from="1574337115432" duration="606000" />
+      <workItem from="1574933071584" duration="5000" />
+      <workItem from="1576586030867" duration="7000" />
+      <workItem from="1581079804499" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19763000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32888147" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20452708" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4180">
+          <caret line="220" column="52" lean-forward="true" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2964">
+          <caret line="156" column="49" selection-start-line="156" selection-start-column="49" selection-end-line="156" selection-end-column="49" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="156" column="49" selection-start-line="156" selection-start-column="49" selection-end-line="156" selection-end-column="49" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2926">
+          <caret line="154" column="29" lean-forward="true" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyList/src/com/dai/mySignalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="method#addFirst#0;class#MySinalList#0" />
+            <element signature="method#addLast#0;class#MySinalList#0" />
+            <element signature="method#getPre#0;class#MySinalList#0" />
+            <element signature="method#addIndex#0;class#MySinalList#0" />
+            <element signature="method#contains#0;class#MySinalList#0" />
+            <element signature="method#getPre1#0;class#MySinalList#0" />
+            <element signature="method#remove#0;class#MySinalList#0" />
+            <element signature="method#removeAllKey#0;class#MySinalList#0" />
+            <element signature="method#getLength#0;class#MySinalList#0" />
+            <element signature="method#display1#0;class#MySinalList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

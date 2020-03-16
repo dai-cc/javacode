@@ -2,7 +2,7 @@ package mystack;
 
 public class test {
     public static void main(String[] args) {
-        myStack<Integer> ms = new myStack<>();
+        MyStack<Integer> ms = new MyStack<>();
         System.out.println(ms.empty());
         ms.push(5);
         ms.push(4);

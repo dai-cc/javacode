@@ -10,7 +10,7 @@ class Less implements Comp{
     //<0:left < right
     public int compare(int left,int right){
         return left - right;
-        Integer
+
     }
 }
 class Great implements Comp{

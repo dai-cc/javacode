@@ -23,14 +23,14 @@ public class BreadOperator {
             try {
                 for (int i = 0; i < 20; i++) {
                     synchronized (BreadOperator.class) {
-                        //此时生产完之后库存达到100上限，是不行的，多以库存在97以上就不能生产
-                        if (SUM + 3 > 100) {
+                        //此时生产完之后库存达到100上限，是不行的，所以库存在97以上就不能生产
+                        while (SUM + 3 > 100) {
                             //释放对象锁，需要让其他线程进入同步代码块，当前线程需要进入阻塞状态
                             BreadOperator.class.wait();
                         }
                         SUM += 3;//生产面包
                         Thread.sleep(10);
-                        BreadOperator.class.notify();
+                        BreadOperator.class.notifyAll();
                         System.out.println(Thread.currentThread().getName()+",生产了，库存为："+SUM);
                     }
                     Thread.sleep(10);
@@ -49,7 +49,7 @@ public class BreadOperator {
                 while (true) {
                     synchronized (BreadOperator.class) {
                         //库存为0，不能继续消费，阻塞当前线程（不能继续消费）
-                        if(SUM == 0){
+                        while(SUM == 0){
                             BreadOperator.class.wait();
                         }
                         SUM--;

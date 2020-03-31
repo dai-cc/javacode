@@ -59,6 +59,40 @@ public class InsertSort {
         }
 
     }
+
+    public static void shiftDown(int[] array,int parent,int size){
+        int child = parent*2+1;
+        while(child<size){
+            //找左右孩子中较大的孩子
+            if(child+1 <size && array[child+1]>array[child]){
+                child += 1;
+            }
+            //
+        }
+    }
+    //堆排序
+    public static void heapSort(int[] array){
+        //建堆
+        //找倒数第一个非叶子节点
+        int lastLeaf = (array.length-2)>>1;
+        //从lastLeaf到root的位置不断向下调整
+        for (int root = lastLeaf; root >= 0 ; root--) {
+            shiftDown(array,root,array.length);
+        }
+        //利用堆删除的思想进行排序
+        int end = array.length - 1;
+        while(end >= 0){
+            swap(array,0,end);
+            shiftDown(array,0,end);
+            end--;
+        }
+    }
+
+    //约定是左闭右开[left,right)
+    public static void quickSort(int[] array,int left,int right){
+
+    }
+
     public static  void printArr(int[] array){
         for (int x:array) {
             System.out.print(x+" ");

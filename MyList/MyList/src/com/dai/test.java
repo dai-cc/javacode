@@ -34,5 +34,7 @@ public class test {
         mySinalList.reverseList();
 
         //mySinalList.display1();
+
+
     }
 }

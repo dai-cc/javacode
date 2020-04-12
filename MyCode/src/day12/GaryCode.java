@@ -11,9 +11,20 @@ package day12;
 public class GaryCode {
     public String[] getGray(int n) {
         //n为几数组的长度就为2的几次方，按这个规律创建数组
-        StringBuffer[] sbs = new StringBuffer[(int)Math.pow(2,n)];
+        String[] s = new String[(int)Math.pow(2,n)];
         if(n == 1){
-            
+            s[0] = "0";
+            s[1] = "1";
+            return s;
+        }else{
+            String[] pres = getGray(n-1);
+            for (int i = 0; i < s.length/2; i++) {
+                s[i] = "0"+pres[i];
+            }
+            for (int i = s.length/2; i < s.length ; i++) {
+                s[i] = "1" + pres[s.length-1-i];
+            }
+            return s;
         }
 
     }

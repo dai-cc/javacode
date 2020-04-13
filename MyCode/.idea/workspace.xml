@@ -37,7 +37,7 @@
       <file leaf-file-name="Mutiply.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day11/Mutiply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="420">
               <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
             </state>
           </provider>
@@ -47,16 +47,25 @@
         <entry file="file://$PROJECT_DIR$/src/day12/ExchangeAB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="18" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GaryCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GaryCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day12/GaryCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day13/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -73,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BuyApple/src/com/Main.java" />
-        <option value="$PROJECT_DIR$/src/BuyApple/src/com/Main1.java" />
         <option value="$PROJECT_DIR$/src/AmazingPocket/Main.java" />
         <option value="$PROJECT_DIR$/src/BuyApple/Main2.java" />
         <option value="$PROJECT_DIR$/src/AddBinary/Solution0.java" />
@@ -124,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/day11/Mutiply.java" />
         <option value="$PROJECT_DIR$/src/day12/ExchangeAB.java" />
         <option value="$PROJECT_DIR$/src/day12/GaryCode.java" />
+        <option value="$PROJECT_DIR$/src/day13/BigDigitSum.java" />
+        <option value="$PROJECT_DIR$/src/day13/Square.java" />
       </list>
     </option>
   </component>
@@ -146,6 +155,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,13 +188,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="day12" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day13" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,7 +219,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExchangeAB">
+  <component name="RunManager" selected="Application.Square">
+    <configuration name="BigDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.BigDigitSum" />
+      <module name="MyCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ExchangeAB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day12.ExchangeAB" />
       <module name="MyCode" />
@@ -212,17 +238,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.Fibonacci" />
-      <module name="MyCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,13 +253,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.Robot" />
+    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.Square" />
       <module name="MyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.*" />
+          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,19 +317,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Fibonacci" />
-      <item itemvalue="Application.Robot" />
       <item itemvalue="Application.digitStatistics" />
       <item itemvalue="Application.Mutiply" />
       <item itemvalue="Application.ExchangeAB" />
+      <item itemvalue="Application.Square" />
+      <item itemvalue="Application.BigDigitSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Square" />
+        <item itemvalue="Application.BigDigitSum" />
         <item itemvalue="Application.ExchangeAB" />
         <item itemvalue="Application.Mutiply" />
         <item itemvalue="Application.digitStatistics" />
-        <item itemvalue="Application.Robot" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -333,14 +348,15 @@
       <workItem from="1586424870425" duration="2557000" />
       <workItem from="1586503291200" duration="8986000" />
       <workItem from="1586607999765" duration="3413000" />
+      <workItem from="1586781213195" duration="7205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14991000" />
+    <option name="totallyTimeSpent" value="22196000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="448" y="0" width="850" height="728" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -352,19 +368,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293919" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32554257" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29419193" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12691997" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39864865" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39732888" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -387,13 +403,17 @@
           <line>37</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day13/BigDigitSum.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AddBinary/out/production/AddBinary/com/dai/Solution.class" />
-    <entry file="file://$PROJECT_DIR$/src/AddBinary/src/com/dai/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/BuyApple/src/com/Main2.java" />
     <entry file="file://$PROJECT_DIR$/src/dai/Solution.java" />
@@ -704,7 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day11/Mutiply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="420">
           <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
@@ -712,14 +732,28 @@
     <entry file="file://$PROJECT_DIR$/src/day12/ExchangeAB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="18" />
+          <caret line="7" column="18" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day12/GaryCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day13/BigDigitSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day13/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
         </state>
       </provider>
     </entry>

@@ -24,14 +24,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chicken.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chicken.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBExam/Chicken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="330">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyOrNot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day22/BuyOrNot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="33" column="32" lean-forward="true" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListAPlusB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day22/ListAPlusB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlusAB.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day22/PlusAB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -51,6 +85,10 @@
         <option value="$PROJECT_DIR$/src/day21/GetTotalRabitCount.java" />
         <option value="$PROJECT_DIR$/src/day21/DeCode.java" />
         <option value="$PROJECT_DIR$/src/DBExam/Chicken.java" />
+        <option value="$PROJECT_DIR$/src/day22/BuyOrNot.java" />
+        <option value="$PROJECT_DIR$/src/day22/ListAAddB.java" />
+        <option value="$PROJECT_DIR$/src/day22/ListAPlusB.java" />
+        <option value="$PROJECT_DIR$/src/day22/PlusAB.java" />
       </list>
     </option>
   </component>
@@ -64,8 +102,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="width" value="1400" />
+    <option name="x" value="639" />
+    <option name="width" value="1293" />
     <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
@@ -73,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,14 +133,21 @@
               <item name="MyCode2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DBExam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,7 +169,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Chicken">
+  <component name="RunManager" selected="Application.BuyOrNot">
+    <configuration name="BuyOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day22.BuyOrNot" />
+      <module name="MyCode2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Chicken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DBExam.Chicken" />
       <module name="MyCode2" />
@@ -216,9 +271,11 @@
       <item itemvalue="Application.DeCode" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.Chicken" />
+      <item itemvalue="Application.BuyOrNot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuyOrNot" />
         <item itemvalue="Application.Chicken" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.DeCode" />
@@ -238,14 +295,17 @@
       <updated>1587705753826</updated>
       <workItem from="1587705759880" duration="3388000" />
       <workItem from="1587725451286" duration="858000" />
+      <workItem from="1587727196807" duration="689000" />
+      <workItem from="1587736901044" duration="5846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4246000" />
+    <option name="totallyTimeSpent" value="10781000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="355" y="0" width="933" height="728" extended-state="0" />
+    <frame x="426" y="0" width="862" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -261,7 +321,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21890548" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -289,6 +349,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/day21/DeCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBExam/Chicken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day21/DeCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBExam/Chicken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day21/GetTotalRabitCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -325,11 +425,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBExam/Chicken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="330">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day22/BuyOrNot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="32" lean-forward="true" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day22/ListAPlusB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day22/PlusAB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>

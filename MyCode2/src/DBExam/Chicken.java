@@ -20,5 +20,6 @@ public class Chicken{
             hm.put(key,value);
         }
         System.out.println(hm.size());
+        sc.close();
     }
 }

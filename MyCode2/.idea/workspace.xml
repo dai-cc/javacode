@@ -1,76 +1,296 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/day24/TheHighestScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24/YiGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddBinary/AddBinary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddBinary/out/production/AddBinary/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddBinary/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazingPocket/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazingPocket/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazingPocket/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazingPocket/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazingPocket/AmazingPocket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazingPocket/out/production/AmazingPocket/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazingPocket/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AntiOrder/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AntiOrder/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AntiOrder/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AntiOrder/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AntiOrder/AntiOrder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AntiOrder/out/production/AntiOrder/AntiOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AntiOrder/src/AntiOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuyApple/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuyApple/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuyApple/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuyApple/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuyApple/BuyApple.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuyApple/out/production/BuyApple/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuyApple/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Candy/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Candy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Candy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Candy/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Candy/Candy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Candy/out/production/Candy/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Candy/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compress/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compress/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compress/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compress/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compress/Compress.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compress/out/production/Compress/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compress/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContainsDuplicate/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContainsDuplicate/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContainsDuplicate/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContainsDuplicate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContainsDuplicate/ContainsDuplicate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContainsDuplicate/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeleteChildStr/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeleteChildStr/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeleteChildStr/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeleteChildStr/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeleteChildStr/DeleteChildStr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeleteChildStr/out/production/DeleteChildStr/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeleteChildStr/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/artifacts/maven_test_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/artifacts/maven_test_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindKth/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindKth/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindKth/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindKth/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindKth/FindKth.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindKth/out/production/FindKth/com/Finder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindKth/src/com/Finder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindNum/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindNum/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindNum/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindNum/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindNum/FindNum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindNum/out/production/FindNum/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindNum/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindUnsortedSubarray/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindUnsortedSubarray/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindUnsortedSubarray/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindUnsortedSubarray/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindUnsortedSubarray/FindUnsortedSubarray.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindUnsortedSubarray/out/production/FindUnsortedSubarray/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindUnsortedSubarray/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HowManyCackCanBoxHave/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HowManyCackCanBoxHave/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HowManyCackCanBoxHave/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HowManyCackCanBoxHave/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HowManyCackCanBoxHave/HowManyCackCanBoxHave.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HowManyCackCanBoxHave/out/production/HowManyCackCanBoxHave/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HowManyCackCanBoxHave/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsHuiWen/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsHuiWen/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsHuiWen/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsHuiWen/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsHuiWen/IsHuiWen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsHuiWen/out/production/IsHuiWen/com/IsHuiWen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsHuiWen/src/com/IsHuiWen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsLongPressedName/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsLongPressedName/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsLongPressedName/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsLongPressedName/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsLongPressedName/IsLongPressedName.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsLongPressedName/out/production/IsLongPressedName/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsLongPressedName/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindrome/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindrome/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindrome/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindrome/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindrome/IsPalindrome.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindrome/out/production/IsPalindrome/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindrome/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindromeString/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindromeString/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindromeString/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindromeString/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindromeString/IsPalindromeString.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindromeString/out/production/IsPalindromeString/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IsPalindromeString/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/LengthOfLastWord.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/out/production/LengthOfLastWord/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestNumStr/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestNumStr/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestNumStr/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestNumStr/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestNumStr/LongestNumStr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestNumStr/out/production/LongestNumStr/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestNumStr/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowestCommonMutiple/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowestCommonMutiple/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowestCommonMutiple/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowestCommonMutiple/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowestCommonMutiple/LowestCommonMutiple.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowestCommonMutiple/out/production/LowestCommonMutiple/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowestCommonMutiple/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoArr/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoArr/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoArr/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoArr/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoArr/MergeTwoArr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoArr/out/production/MergeTwoArr/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoArr/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAtoi/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAtoi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAtoi/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAtoi/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAtoi/MyAtoi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAtoi/out/production/MyAtoi/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAtoi/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumOfZero/NumOfZero.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumOfZero/out/production/NumOfZero/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumOfZero/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumReverse/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumReverse/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumReverse/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumReverse/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumReverse/NumReverse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumReverse/out/production/NumReverse/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumReverse/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parenthesis/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parenthesis/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parenthesis/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parenthesis/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parenthesis/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parenthesis/Parenthesis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parenthesis/out/production/Parenthesis/com/parenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parenthesis/src/com/parenthesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PivotIndex/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PivotIndex/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PivotIndex/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PivotIndex/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PivotIndex/PivotIndex.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PivotIndex/out/production/PivotIndex/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PivotIndex/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlusOne/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlusOne/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlusOne/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlusOne/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlusOne/PlusOne.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlusOne/out/production/PlusOne/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlusOne/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ransom/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ransom/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ransom/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ransom/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ransom/Ransom.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ransom/out/production/Ransom/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ransom/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/RemoveElement.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/out/production/RemoveElement/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReserveOnlyLetters/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReserveOnlyLetters/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReserveOnlyLetters/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReserveOnlyLetters/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReserveOnlyLetters/ReserveOnlyLetters.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReserveOnlyLetters/out/production/ReserveOnlyLetters/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReserveOnlyLetters/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rotate/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rotate/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rotate/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rotate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rotate/Rotate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rotate/out/production/Rotate/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rotate/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchInsert/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchInsert/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchInsert/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchInsert/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchInsert/SearchInsert.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchInsert/out/production/SearchInsert/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchInsert/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchRange/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchRange/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchRange/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchRange/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchRange/SearchRange.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchRange/out/production/SearchRange/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchRange/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SodaBottle/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SodaBottle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SodaBottle/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SodaBottle/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SodaBottle/SodaBottle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SodaBottle/out/production/SodaBottle/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SodaBottle/src/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortArrayByParity/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortArrayByParity/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortArrayByParity/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortArrayByParity/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortArrayByParity/SortArrayByParity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortArrayByParity/out/production/SortArrayByParity/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortArrayByParity/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedSquares/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedSquares/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedSquares/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedSquares/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedSquares/SortedSquares.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedSquares/out/production/SortedSquares/com/dai/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedSquares/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackRealizeQueue/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackRealizeQueue/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackRealizeQueue/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackRealizeQueue/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackRealizeQueue/StackRealizeQueue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackRealizeQueue/src/com/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThirdMax/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThirdMax/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThirdMax/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThirdMax/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThirdMax/ThirdMax.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThirdMax/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToLowerCase/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToLowerCase/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToLowerCase/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToLowerCase/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToLowerCase/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToLowerCase/ToLowerCase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToLowerCase/out/production/ToLowerCase/com/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToLowerCase/src/com/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoSum/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoSum/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoSum/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoSum/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoSum/TwoSum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoSum/src/com/dai/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evlPRN/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evlPRN/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evlPRN/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evlPRN/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evlPRN/evlPRN.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evlPRN/src/com/dai/Solution.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day21/DeCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chicken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DBExam/Chicken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuyOrNot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day22/BuyOrNot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="33" column="32" lean-forward="true" selection-end-line="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListAPlusB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day22/ListAPlusB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
-              <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlusAB.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day22/PlusAB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,97 +299,24 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/day21/GetTotalRabitCount.java" />
-        <option value="$PROJECT_DIR$/src/day21/DeCode.java" />
-        <option value="$PROJECT_DIR$/src/DBExam/Chicken.java" />
-        <option value="$PROJECT_DIR$/src/day22/BuyOrNot.java" />
-        <option value="$PROJECT_DIR$/src/day22/ListAAddB.java" />
-        <option value="$PROJECT_DIR$/src/day22/ListAPlusB.java" />
-        <option value="$PROJECT_DIR$/src/day22/PlusAB.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="639" />
-    <option name="width" value="1293" />
-    <option name="height" value="1092" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyCode2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day21" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day22" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DBExam" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1b0y3QwUcqfdm4CntETv5ZTObaG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.BuyOrNot">
+  <component name="RunManager" selected="Application.TheHighestScore">
     <configuration name="BuyOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day22.BuyOrNot" />
       <module name="MyCode2" />
@@ -180,6 +327,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Chicken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DBExam.Chicken" />
@@ -191,95 +341,88 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="DeCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day21.DeCode" />
+    <configuration name="DigitalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day23.DigitalSort" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day21.*" />
+          <option name="PATTERN" value="day23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSExam.Fibonacci" />
+    <configuration name="TheHighestScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24.TheHighestScore" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSExam.*" />
+          <option name="PATTERN" value="day24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="GetTotalRabitCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day21.GetTotalRabitCount" />
+    <configuration name="YiGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24.YiGame" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day21.*" />
+          <option name="PATTERN" value="day24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GetTotalRabitCount" />
-      <item itemvalue="Application.DeCode" />
-      <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.Chicken" />
       <item itemvalue="Application.BuyOrNot" />
+      <item itemvalue="Application.DigitalSort" />
+      <item itemvalue="Application.YiGame" />
+      <item itemvalue="Application.TheHighestScore" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheHighestScore" />
+        <item itemvalue="Application.YiGame" />
+        <item itemvalue="Application.DigitalSort" />
         <item itemvalue="Application.BuyOrNot" />
         <item itemvalue="Application.Chicken" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.DeCode" />
-        <item itemvalue="Application.GetTotalRabitCount" />
       </list>
     </recent_temporary>
   </component>
@@ -297,170 +440,62 @@
       <workItem from="1587725451286" duration="858000" />
       <workItem from="1587727196807" duration="689000" />
       <workItem from="1587736901044" duration="5846000" />
+      <workItem from="1587783111632" duration="87000" />
+      <workItem from="1587817959333" duration="29000" />
+      <workItem from="1587876273696" duration="4646000" />
+      <workItem from="1587896538359" duration="13000" />
+      <workItem from="1587960015128" duration="4380000" />
+      <workItem from="1587983628229" duration="11000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10781000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="426" y="0" width="862" height="728" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293919" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21890548" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39864865" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state width="784" height="216" key="GridCell.Tab.0.bottom" timestamp="1587963712899">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="784" height="216" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587963712899" />
+    <state width="784" height="216" key="GridCell.Tab.0.center" timestamp="1587963712898">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="784" height="216" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587963712898" />
+    <state width="784" height="216" key="GridCell.Tab.0.left" timestamp="1587963712898">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="784" height="216" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587963712898" />
+    <state width="784" height="216" key="GridCell.Tab.0.right" timestamp="1587963712898">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="784" height="216" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587963712898" />
+    <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1587963712899">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="784" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587963712899" />
+    <state width="784" height="216" key="GridCell.Tab.1.center" timestamp="1587963712899">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="784" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1587963712899" />
+    <state width="784" height="216" key="GridCell.Tab.1.left" timestamp="1587963712899">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="784" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1587963712899" />
+    <state width="784" height="216" key="GridCell.Tab.1.right" timestamp="1587963712899">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1587963712899" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day24/TheHighestScore.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day21/DeCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBExam/Chicken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day21/DeCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBExam/Chicken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day21/GetTotalRabitCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day21/DeCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day21/GetTotalRabitCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day21/DeCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBExam/Chicken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day22/BuyOrNot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="33" column="32" lean-forward="true" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day22/ListAPlusB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day22/PlusAB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

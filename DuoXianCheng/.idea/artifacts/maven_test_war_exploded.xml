@@ -13,9 +13,6 @@
         <element id="directory" name="classes">
           <element id="module-output" name="maven-test" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
-        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/../DuoXianChen/maven-test/target/test/META-INF/MANIFEST.MF" />

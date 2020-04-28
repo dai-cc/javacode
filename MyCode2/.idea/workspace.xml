@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day24/TheHighestScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day24/YiGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25/GPA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25/MoneyChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyDataBase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyDataBase/src/myHashBucket/HashBucekt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -59,10 +61,6 @@
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/DeleteChildStr.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/out/production/DeleteChildStr/com/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/src/com/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/artifacts/maven_test_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/artifacts/maven_test_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/modules.xml" beforeDir="false" />
@@ -155,6 +153,7 @@
       <change beforePath="$PROJECT_DIR$/../MyAtoi/out/production/MyAtoi/com/dai/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyAtoi/src/com/dai/Solution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/modules.xml" beforeDir="false" />
@@ -303,7 +302,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1b0y3QwUcqfdm4CntETv5ZTObaG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -316,7 +317,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.TheHighestScore">
+  <component name="RunManager" selected="Application.GPA">
     <configuration name="BuyOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day22.BuyOrNot" />
       <module name="MyCode2" />
@@ -331,20 +332,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chicken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DBExam.Chicken" />
-      <module name="MyCode2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DBExam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DigitalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day23.DigitalSort" />
       <module name="MyCode2" />
@@ -352,6 +339,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GPA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25.GPA" />
+      <module name="MyCode2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,19 +411,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Chicken" />
       <item itemvalue="Application.BuyOrNot" />
       <item itemvalue="Application.DigitalSort" />
       <item itemvalue="Application.YiGame" />
       <item itemvalue="Application.TheHighestScore" />
+      <item itemvalue="Application.GPA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GPA" />
         <item itemvalue="Application.TheHighestScore" />
         <item itemvalue="Application.YiGame" />
         <item itemvalue="Application.DigitalSort" />
         <item itemvalue="Application.BuyOrNot" />
-        <item itemvalue="Application.Chicken" />
       </list>
     </recent_temporary>
   </component>
@@ -446,6 +447,8 @@
       <workItem from="1587896538359" duration="13000" />
       <workItem from="1587960015128" duration="4380000" />
       <workItem from="1587983628229" duration="11000" />
+      <workItem from="1588063258005" duration="1969000" />
+      <workItem from="1588082787267" duration="1963000" />
     </task>
     <servers />
   </component>
@@ -453,22 +456,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="784" height="216" key="GridCell.Tab.0.bottom" timestamp="1587963712899">
+    <state width="784" height="298" key="GridCell.Tab.0.bottom" timestamp="1588084751858">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587963712899" />
-    <state width="784" height="216" key="GridCell.Tab.0.center" timestamp="1587963712898">
+    <state width="784" height="298" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588084751858" />
+    <state width="784" height="298" key="GridCell.Tab.0.center" timestamp="1588084751858">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587963712898" />
-    <state width="784" height="216" key="GridCell.Tab.0.left" timestamp="1587963712898">
+    <state width="784" height="298" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588084751858" />
+    <state width="784" height="298" key="GridCell.Tab.0.left" timestamp="1588084751858">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587963712898" />
-    <state width="784" height="216" key="GridCell.Tab.0.right" timestamp="1587963712898">
+    <state width="784" height="298" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588084751858" />
+    <state width="784" height="298" key="GridCell.Tab.0.right" timestamp="1588084751858">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587963712898" />
+    <state width="784" height="298" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588084751858" />
     <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1587963712899">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

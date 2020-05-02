@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day25/MoneyChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26/DigitSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26/VoteCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day27/FindX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day27/IntExchangeIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day28/PasswordCheckOk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day28/ShouXingShu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/demo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -157,6 +151,7 @@
       <change beforePath="$PROJECT_DIR$/../MyAtoi/out/production/MyAtoi/com/dai/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyAtoi/src/com/dai/Solution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyCode2/day28/PasswordCheckOk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCode2/day28/PasswordCheckOk.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/misc.xml" beforeDir="false" />
@@ -321,7 +316,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.PasswordCheckOk">
+  <component name="RunManager" selected="Application.demo01">
     <configuration name="DigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day26.DigitSum" />
       <module name="MyCode2" />
@@ -329,20 +324,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntExchangeIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day27.IntExchangeIP" />
-      <module name="MyCode2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,6 +379,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.demo01" />
+      <module name="MyCode2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -415,19 +410,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntExchangeIP" />
       <item itemvalue="Application.DigitSum" />
       <item itemvalue="Application.VoteCount" />
       <item itemvalue="Application.ShouXingShu" />
       <item itemvalue="Application.PasswordCheckOk" />
+      <item itemvalue="Application.demo01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.demo01" />
         <item itemvalue="Application.PasswordCheckOk" />
         <item itemvalue="Application.ShouXingShu" />
         <item itemvalue="Application.VoteCount" />
         <item itemvalue="Application.DigitSum" />
-        <item itemvalue="Application.IntExchangeIP" />
       </list>
     </recent_temporary>
   </component>
@@ -455,6 +450,7 @@
       <workItem from="1588082787267" duration="1963000" />
       <workItem from="1588149288881" duration="4937000" />
       <workItem from="1588230294201" duration="14580000" />
+      <workItem from="1588393340852" duration="8187000" />
     </task>
     <servers />
   </component>
@@ -462,22 +458,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="784" height="298" key="GridCell.Tab.0.bottom" timestamp="1588257170759">
+    <state width="1237" height="298" key="GridCell.Tab.0.bottom" timestamp="1588430181356">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="298" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588257170759" />
-    <state width="784" height="298" key="GridCell.Tab.0.center" timestamp="1588257170759">
+    <state width="1237" height="298" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588430181356" />
+    <state width="1237" height="298" key="GridCell.Tab.0.center" timestamp="1588430181356">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="298" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588257170759" />
-    <state width="784" height="298" key="GridCell.Tab.0.left" timestamp="1588257170759">
+    <state width="1237" height="298" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588430181356" />
+    <state width="1237" height="298" key="GridCell.Tab.0.left" timestamp="1588430181356">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="298" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588257170759" />
-    <state width="784" height="298" key="GridCell.Tab.0.right" timestamp="1588257170759">
+    <state width="1237" height="298" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588430181356" />
+    <state width="1237" height="298" key="GridCell.Tab.0.right" timestamp="1588430181356">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="298" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588257170759" />
+    <state width="1237" height="298" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588430181356" />
     <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1588257169370">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -494,10 +490,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1588257169370" />
-    <state x="528" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1588252776759">
+    <state x="398" y="81" key="RollbackChangesDialog" timestamp="1588413655298">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="528" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1588252776759" />
+    <state x="398" y="81" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1588413655298" />
+    <state x="528" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1588393492489">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="528" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1588393492489" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

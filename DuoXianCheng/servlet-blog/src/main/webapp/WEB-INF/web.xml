@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <welcome-file-list>
+        <!--这样配置之后访问根路径就可以直接访问到下面的地址
+        将项目的根路径/映射到配置的url-->
+        <welcome-file>jsp/articleList.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

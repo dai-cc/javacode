@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/io-study/io-study.iml" filepath="$PROJECT_DIR$/io-study/io-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" filepath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/net-study/net-study.iml" filepath="$PROJECT_DIR$/net-study/net-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet-blog/servlet-blog.iml" filepath="$PROJECT_DIR$/servlet-blog/servlet-blog.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-study/thread-study.iml" filepath="$PROJECT_DIR$/thread-study/thread-study.iml" />
     </modules>
   </component>

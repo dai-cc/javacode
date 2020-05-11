@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day29/LotteryInAnnualMeeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day29/SumIsSumCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day29/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day30/BigDigitSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day30/OddEvenCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -156,6 +155,7 @@
       <change beforePath="$PROJECT_DIR$/../MyAtoi/out/production/MyAtoi/com/dai/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyAtoi/src/com/dai/Solution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyCode2/day29/LotteryInAnnualMeeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCode2/day29/LotteryInAnnualMeeting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyDataBase/out/production/MyDataBase/mybinarytree/PreOrderTraversal.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyDataBase/out/production/MyDataBase/mybinarytree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/out/production/MyDataBase/mybinarytree/TreeNode.class" afterDir="false" />
@@ -167,7 +167,6 @@
       <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/Test20191112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/Test20191112.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/Test20191221.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/Test20191221.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/TestPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/TestPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/mybinarytree/PreOrderTraversal.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyDataBase/src/mybinarytree/myBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/mybinarytree/myBinTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/misc.xml" beforeDir="false" />
@@ -332,7 +331,21 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.LotteryInAnnualMeeting">
+  <component name="RunManager" selected="Application.OddEvenCheck">
+    <configuration name="BigDigitSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day30.BigDigitSort" />
+      <module name="MyCode2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LotteryInAnnualMeeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day29.LotteryInAnnualMeeting" />
       <module name="MyCode2" />
@@ -347,27 +360,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordCheckOk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day28.PasswordCheckOk" />
+    <configuration name="OddEvenCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day30.OddEvenCheck" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day28.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShouXingShu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day28.ShouXingShu" />
-      <module name="MyCode2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day28.*" />
+          <option name="PATTERN" value="day30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -426,19 +425,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ShouXingShu" />
-      <item itemvalue="Application.PasswordCheckOk" />
       <item itemvalue="Application.demo01" />
       <item itemvalue="Application.LotteryInAnnualMeeting" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.BigDigitSort" />
+      <item itemvalue="Application.OddEvenCheck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddEvenCheck" />
+        <item itemvalue="Application.BigDigitSort" />
         <item itemvalue="Application.LotteryInAnnualMeeting" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.demo01" />
-        <item itemvalue="Application.PasswordCheckOk" />
-        <item itemvalue="Application.ShouXingShu" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +467,8 @@
       <workItem from="1588230294201" duration="14580000" />
       <workItem from="1588393340852" duration="8187000" />
       <workItem from="1589018210643" duration="3846000" />
-      <workItem from="1589073194960" duration="5224000" />
+      <workItem from="1589073194960" duration="8510000" />
+      <workItem from="1589161480748" duration="4677000" />
     </task>
     <servers />
   </component>
@@ -476,38 +476,38 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="298" key="GridCell.Tab.0.bottom" timestamp="1589074533947">
+    <state width="788" height="294" key="GridCell.Tab.0.bottom" timestamp="1589166065988">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="298" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589074533947" />
-    <state width="1237" height="298" key="GridCell.Tab.0.center" timestamp="1589074533946">
+    <state width="788" height="294" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589166065988" />
+    <state width="788" height="294" key="GridCell.Tab.0.center" timestamp="1589166065988">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="298" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589074533946" />
-    <state width="1237" height="298" key="GridCell.Tab.0.left" timestamp="1589074533946">
+    <state width="788" height="294" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589166065988" />
+    <state width="788" height="294" key="GridCell.Tab.0.left" timestamp="1589166065988">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="298" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589074533946" />
-    <state width="1237" height="298" key="GridCell.Tab.0.right" timestamp="1589074533947">
+    <state width="788" height="294" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589166065988" />
+    <state width="788" height="294" key="GridCell.Tab.0.right" timestamp="1589166065988">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="298" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589074533947" />
-    <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1588257169370">
+    <state width="788" height="294" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589166065988" />
+    <state width="788" height="216" key="GridCell.Tab.1.bottom" timestamp="1589164965084">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588257169370" />
-    <state width="784" height="216" key="GridCell.Tab.1.center" timestamp="1588257169370">
+    <state width="788" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589164965084" />
+    <state width="788" height="216" key="GridCell.Tab.1.center" timestamp="1589164965084">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1588257169370" />
-    <state width="784" height="216" key="GridCell.Tab.1.left" timestamp="1588257169370">
+    <state width="788" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589164965084" />
+    <state width="788" height="216" key="GridCell.Tab.1.left" timestamp="1589164965084">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1588257169370" />
-    <state width="784" height="216" key="GridCell.Tab.1.right" timestamp="1588257169370">
+    <state width="788" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589164965084" />
+    <state width="788" height="216" key="GridCell.Tab.1.right" timestamp="1589164965084">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1588257169370" />
+    <state width="788" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589164965084" />
     <state x="398" y="81" key="RollbackChangesDialog" timestamp="1588413655298">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -540,13 +540,17 @@
           <line>91</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day30/BigDigitSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="str.charAt(i)" language="JAVA" />
-        <watch expression="str.charAt(j)" language="JAVA" />
-        <watch expression="str.charAt(k)" language="JAVA" />
+        <watch expression="nums[j].length()" language="JAVA" />
+        <watch expression="len[i]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

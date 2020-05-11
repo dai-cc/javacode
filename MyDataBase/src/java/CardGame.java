@@ -6,7 +6,7 @@
 
 
 // 一副扑克有52张牌，这里不考虑大小王
-
+package java;
     import java.util.ArrayList;
     import java.util.List;
     import java.util.Random;
@@ -74,7 +74,7 @@ public class CardGame {
             for(int j = 0; j < onePerson.size(); ++i){
                 if(onePerson.contains(d))
                 {
-                    System.out.print("%d 输了", j);
+                    System.out.printf("%d 输了", j);
                 }
 
             }

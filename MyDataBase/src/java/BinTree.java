@@ -1,3 +1,4 @@
+package java;
 /**
  * @Author: will
  * @Date: 2020/2/25
@@ -22,17 +23,17 @@ class BTNode{
 
 
 
-class Number
-{
-    public Number(int first, int second)
-    {
-        this.first = first;
-        this.second = second;
-    }
-
-    int first;
-    int second;
-}
+//class Number
+//{
+//    public Number(int first, int second)
+//    {
+//        this.first = first;
+//        this.second = second;
+//    }
+//
+//    int first;
+//    int second;
+//}
 
 public class BinTree {
     private BTNode root = null;  // 引用二叉树的根节点
@@ -380,22 +381,22 @@ public class BinTree {
         return null;
     }
 
-    // 对于基础类型的参数，不能通过改变形参来修改实参
-    // 方法： 1. 将基础类型的变量  数组
-    //        2. 重新封装一种新的类型，然后将变量----放到新封装的类型中
-    public void swap(int a, int b)
-    {
-        int temp = a;
-        a = b;
-        b = temp;
-    }
-
-    public void swap(Number n)
-    {
-        int temp = n.first;
-        n.first = n.second;
-        n.second = temp;
-    }
+//    // 对于基础类型的参数，不能通过改变形参来修改实参
+//    // 方法： 1. 将基础类型的变量  数组
+//    //        2. 重新封装一种新的类型，然后将变量----放到新封装的类型中
+//    public void swap(int a, int b)
+//    {
+//        int temp = a;
+//        a = b;
+//        b = temp;
+//    }
+//
+//    public void swap(Number n)
+//    {
+//        int temp = n.first;
+//        n.first = n.second;
+//        n.second = temp;
+//    }
 
     public static void main(String[] args) {
         int left = 10;

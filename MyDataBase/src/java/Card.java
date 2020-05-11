@@ -3,6 +3,7 @@
  * @Date: 2019/11/14
  * @description:
  */
+package java;
 public class Card {
     private int rank;   // 牌面值
     private String suit; // 花色

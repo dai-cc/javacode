@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day30/BigDigitSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30/OddEvenCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day31/EasyMisCout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day31/ShuoFanHua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32/ChangeAtHogwarts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32/NumOfTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -59,10 +61,12 @@
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/DeleteChildStr.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/out/production/DeleteChildStr/com/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/src/com/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/db/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/db/blog.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/modules.xml" beforeDir="false" />
@@ -155,19 +159,6 @@
       <change beforePath="$PROJECT_DIR$/../MyAtoi/out/production/MyAtoi/com/dai/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyAtoi/src/com/dai/Solution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCode2/day29/LotteryInAnnualMeeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCode2/day29/LotteryInAnnualMeeting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/out/production/MyDataBase/mybinarytree/PreOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/out/production/MyDataBase/mybinarytree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/out/production/MyDataBase/mybinarytree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/out/production/MyDataBase/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/out/production/MyDataBase/sort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/BinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/CardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/MyPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/MyPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/Test20191112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/Test20191112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/Test20191221.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/Test20191221.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/java/TestPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/java/TestPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDataBase/src/mybinarytree/myBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/src/mybinarytree/myBinTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/modules.xml" beforeDir="false" />
@@ -331,14 +322,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.OddEvenCheck">
-    <configuration name="BigDigitSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day30.BigDigitSort" />
+  <component name="RunManager" selected="Application.NumOfTwo">
+    <configuration name="ChangeAtHogwarts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32.ChangeAtHogwarts" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day30.*" />
+          <option name="PATTERN" value="day32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,13 +337,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LotteryInAnnualMeeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day29.LotteryInAnnualMeeting" />
+    <configuration name="EasyMisCout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day31.EasyMisCout" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day29.*" />
+          <option name="PATTERN" value="day31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32.NumOfTwo" />
+      <module name="MyCode2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,13 +379,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day29.Test" />
+    <configuration name="ShuoFanHua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day31.ShuoFanHua" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day29.*" />
+          <option name="PATTERN" value="day31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,20 +395,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.demo01" />
-      <module name="MyCode2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -425,19 +416,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.demo01" />
-      <item itemvalue="Application.LotteryInAnnualMeeting" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.BigDigitSort" />
       <item itemvalue="Application.OddEvenCheck" />
+      <item itemvalue="Application.ShuoFanHua" />
+      <item itemvalue="Application.EasyMisCout" />
+      <item itemvalue="Application.ChangeAtHogwarts" />
+      <item itemvalue="Application.NumOfTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumOfTwo" />
+        <item itemvalue="Application.ChangeAtHogwarts" />
+        <item itemvalue="Application.EasyMisCout" />
+        <item itemvalue="Application.ShuoFanHua" />
         <item itemvalue="Application.OddEvenCheck" />
-        <item itemvalue="Application.BigDigitSort" />
-        <item itemvalue="Application.LotteryInAnnualMeeting" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.demo01" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +459,9 @@
       <workItem from="1588393340852" duration="8187000" />
       <workItem from="1589018210643" duration="3846000" />
       <workItem from="1589073194960" duration="8510000" />
-      <workItem from="1589161480748" duration="4677000" />
+      <workItem from="1589161480748" duration="7910000" />
+      <workItem from="1589355098649" duration="7608000" />
+      <workItem from="1589444826738" duration="6365000" />
     </task>
     <servers />
   </component>
@@ -476,38 +469,38 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="788" height="294" key="GridCell.Tab.0.bottom" timestamp="1589166065988">
+    <state width="784" height="290" key="GridCell.Tab.0.bottom" timestamp="1589452962374">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="788" height="294" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589166065988" />
-    <state width="788" height="294" key="GridCell.Tab.0.center" timestamp="1589166065988">
+    <state width="784" height="290" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589452962374" />
+    <state width="784" height="290" key="GridCell.Tab.0.center" timestamp="1589452962374">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="788" height="294" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589166065988" />
-    <state width="788" height="294" key="GridCell.Tab.0.left" timestamp="1589166065988">
+    <state width="784" height="290" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589452962374" />
+    <state width="784" height="290" key="GridCell.Tab.0.left" timestamp="1589452962374">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="788" height="294" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589166065988" />
-    <state width="788" height="294" key="GridCell.Tab.0.right" timestamp="1589166065988">
+    <state width="784" height="290" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589452962374" />
+    <state width="784" height="290" key="GridCell.Tab.0.right" timestamp="1589452962374">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="788" height="294" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589166065988" />
-    <state width="788" height="216" key="GridCell.Tab.1.bottom" timestamp="1589164965084">
+    <state width="784" height="290" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589452962374" />
+    <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1589452962365">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="788" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589164965084" />
-    <state width="788" height="216" key="GridCell.Tab.1.center" timestamp="1589164965084">
+    <state width="784" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589452962365" />
+    <state width="784" height="216" key="GridCell.Tab.1.center" timestamp="1589452962365">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="788" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589164965084" />
-    <state width="788" height="216" key="GridCell.Tab.1.left" timestamp="1589164965084">
+    <state width="784" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589452962365" />
+    <state width="784" height="216" key="GridCell.Tab.1.left" timestamp="1589452962365">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="788" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589164965084" />
-    <state width="788" height="216" key="GridCell.Tab.1.right" timestamp="1589164965084">
+    <state width="784" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589452962365" />
+    <state width="784" height="216" key="GridCell.Tab.1.right" timestamp="1589452962365">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="788" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589164965084" />
+    <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589452962365" />
     <state x="398" y="81" key="RollbackChangesDialog" timestamp="1588413655298">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -545,14 +538,43 @@
           <line>22</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day31/ShuoFanHua.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day31/EasyMisCout.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day32/ChangeAtHogwarts.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day32/ChangeAtHogwarts.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day32/NumOfTwo.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day32/NumOfTwo.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day32/NumOfTwo.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="nums[j].length()" language="JAVA" />
-        <watch expression="len[i]" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>

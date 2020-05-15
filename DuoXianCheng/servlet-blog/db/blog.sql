@@ -21,3 +21,8 @@ create table article(
                         create_time timestamp,
                         foreign key(user_id) references user(id)
 );
+
+insert into user(name,create_time) values('abc','2020-03-01 12:00:00');
+insert into article(title,content,user_id,create_time) values ('t1','c1',1,CURRENT_TIMESTAMP);
+insert into article(title,content,user_id,create_time) values ('t2','c2',1,CURRENT_TIMESTAMP);
+insert into article(title,content,user_id,create_time) values ('t3','c3',1,CURRENT_TIMESTAMP);

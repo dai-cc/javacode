@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0bbb3e3-7dc9-484b-8963-3e4e438f12c2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyCode2/src/day31/EasyMisCout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCode2/src/day31/ShuoFanHua.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -62,10 +64,12 @@
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/DeleteChildStr.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/out/production/DeleteChildStr/com/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/src/com/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-blog/db/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-blog/db/blog.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-blog/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/modules.xml" beforeDir="false" />
@@ -299,8 +303,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -338,6 +342,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mysql.8" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -349,14 +354,17 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dai" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javaCode1\DuoXianCheng\servlet-blog\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.servlet-blog">
+  <component name="RunManager" selected="JUnit.JSONUtilTest.t1">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.Client" />
       <module name="net-study" />
@@ -391,34 +399,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillOperatorTest.copyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="io-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson2" />
-      <option name="MAIN_CLASS_NAME" value="lesson2.FillOperatorTest" />
-      <option name="METHOD_NAME" value="copyFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="blog.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/servlet-blog/db/blog.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="8577f497-e4ed-4c24-85bb-5f647313b101" namespace="schema/&quot;blogdemo&quot;" />
+      <method v="2" />
     </configuration>
-    <configuration name="FillOperatorTest.fileRead_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="io-study" />
+    <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/eddd462f-b254-4b96-8477-be35a2461e1b/console.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="JSONUtilTest.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servlet-blog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="dai.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson2" />
-      <option name="MAIN_CLASS_NAME" value="lesson2.FillOperatorTest" />
-      <option name="METHOD_NAME" value="fileRead_1" />
+      <option name="PACKAGE_NAME" value="dai.util" />
+      <option name="MAIN_CLASS_NAME" value="dai.util.JSONUtilTest" />
+      <option name="METHOD_NAME" value="t1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -592,17 +594,19 @@
     <list>
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="JUnit.FillOperatorTest.fileRead_1" />
-      <item itemvalue="JUnit.FillOperatorTest.copyFile" />
+      <item itemvalue="Database Script.blog.sql" />
+      <item itemvalue="Database Script.console.sql" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.54" />
       <item itemvalue="Tomcat Server.servlet-blog" />
+      <item itemvalue="JUnit.JSONUtilTest.t1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONUtilTest.t1" />
+        <item itemvalue="Database Script.blog.sql" />
+        <item itemvalue="Database Script.console.sql" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="JUnit.FillOperatorTest.copyFile" />
-        <item itemvalue="JUnit.FillOperatorTest.fileRead_1" />
       </list>
     </recent_temporary>
   </component>
@@ -644,6 +648,9 @@
       <workItem from="1588933768874" duration="4179000" />
       <workItem from="1589194493992" duration="3775000" />
       <workItem from="1589199041531" duration="8734000" />
+      <workItem from="1589247950760" duration="686000" />
+      <workItem from="1589368426763" duration="3818000" />
+      <workItem from="1589372303103" duration="5189000" />
     </task>
     <servers />
   </component>
@@ -655,14 +662,18 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="141" y="0" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1588936130779" />
-    <state x="148" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589202468566">
+    <state x="680" y="95" key="#blog.sql" timestamp="1589371971289">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="148" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1589202468566" />
-    <state x="783" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1587988438323">
+    <state x="680" y="95" key="#blog.sql/0.0.1280.720@0.0.1280.720" timestamp="1589371971289" />
+    <state x="466" y="34" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589371856272">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="783" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1587988438323" />
+    <state x="466" y="34" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1589371856272" />
+    <state x="783" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1589376182952">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="783" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1589376182952" />
     <state x="545" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1587904298722">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -675,6 +686,18 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="595" y="272" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1280.720@0.0.1280.720" timestamp="1588936084979" />
+    <state x="562" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589375921907">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="562" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1589375921907" />
+    <state x="695" y="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589375923864">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="695" y="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.720@0.0.1280.720" timestamp="1589375923864" />
+    <state x="680" y="95" key="#console.sql" timestamp="1589370447873">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="680" y="95" key="#console.sql/0.0.1280.720@0.0.1280.720" timestamp="1589370447873" />
     <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1587896600694">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -683,22 +706,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="594" y="121" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1587904261055" />
-    <state width="562" height="226" key="GridCell.Tab.0.bottom" timestamp="1589209235520">
+    <state width="537" height="226" key="GridCell.Tab.0.bottom" timestamp="1589444824484">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="562" height="226" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589209235520" />
-    <state width="562" height="226" key="GridCell.Tab.0.center" timestamp="1589209235520">
+    <state width="537" height="226" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589444824484" />
+    <state width="537" height="226" key="GridCell.Tab.0.center" timestamp="1589444824483">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="562" height="226" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589209235520" />
-    <state width="562" height="226" key="GridCell.Tab.0.left" timestamp="1589209235520">
+    <state width="537" height="226" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589444824483" />
+    <state width="537" height="226" key="GridCell.Tab.0.left" timestamp="1589444824483">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="562" height="226" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589209235520" />
-    <state width="562" height="226" key="GridCell.Tab.0.right" timestamp="1589209235520">
+    <state width="537" height="226" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589444824483" />
+    <state width="537" height="226" key="GridCell.Tab.0.right" timestamp="1589444824484">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="562" height="226" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589209235520" />
+    <state width="537" height="226" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589444824484" />
     <state x="299" y="294" width="814" height="128" key="GridCell.Tab.1.bottom" timestamp="1589202623368">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -771,10 +794,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="81" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1587897913997" />
-    <state x="366" y="8" width="914" height="710" key="SettingsEditor" timestamp="1588762315453">
+    <state x="366" y="8" width="914" height="710" key="SettingsEditor" timestamp="1589372250603">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="366" y="8" width="914" height="710" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1588762315453" />
+    <state x="366" y="8" width="914" height="710" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589372250603" />
     <state x="299" y="294" width="828" height="193" key="dock-window-1" timestamp="1589202469128">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -783,10 +806,18 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="295" y="514" width="828" height="193" key="dock-window-2/0.0.1280.720@0.0.1280.720" timestamp="1589202905965" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1589373482566">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1280.720@0.0.1280.720" timestamp="1589373482566" />
     <state x="3" y="29" key="new project wizard" timestamp="1588761742282">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="3" y="29" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1588761742282" />
+    <state x="563" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589374091052">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="563" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589374091052" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day31/EasyMisCout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day31/ShuoFanHua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day32/ChangeAtHogwarts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day32/NumOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33/RockPaperScissors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33/TaiJie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -63,7 +61,6 @@
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/src/com/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/db/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/db/blog.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/pom.xml" afterDir="false" />
@@ -159,6 +156,7 @@
       <change beforePath="$PROJECT_DIR$/../MyAtoi/out/production/MyAtoi/com/dai/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyAtoi/src/com/dai/Solution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDataBase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/modules.xml" beforeDir="false" />
@@ -322,7 +320,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.NumOfTwo">
+  <component name="RunManager" selected="Application.RockPaperScissors">
     <configuration name="ChangeAtHogwarts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day32.ChangeAtHogwarts" />
       <module name="MyCode2" />
@@ -365,13 +363,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day30.OddEvenCheck" />
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day33.RockPaperScissors" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day30.*" />
+          <option name="PATTERN" value="day33.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,19 +414,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OddEvenCheck" />
       <item itemvalue="Application.ShuoFanHua" />
       <item itemvalue="Application.EasyMisCout" />
       <item itemvalue="Application.ChangeAtHogwarts" />
       <item itemvalue="Application.NumOfTwo" />
+      <item itemvalue="Application.RockPaperScissors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RockPaperScissors" />
         <item itemvalue="Application.NumOfTwo" />
         <item itemvalue="Application.ChangeAtHogwarts" />
         <item itemvalue="Application.EasyMisCout" />
         <item itemvalue="Application.ShuoFanHua" />
-        <item itemvalue="Application.OddEvenCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -462,6 +460,7 @@
       <workItem from="1589161480748" duration="7910000" />
       <workItem from="1589355098649" duration="7608000" />
       <workItem from="1589444826738" duration="6365000" />
+      <workItem from="1589533762487" duration="5742000" />
     </task>
     <servers />
   </component>
@@ -469,38 +468,38 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="784" height="290" key="GridCell.Tab.0.bottom" timestamp="1589452962374">
+    <state width="784" height="216" key="GridCell.Tab.0.bottom" timestamp="1589540597710">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="290" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589452962374" />
-    <state width="784" height="290" key="GridCell.Tab.0.center" timestamp="1589452962374">
+    <state width="784" height="216" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589540597710" />
+    <state width="784" height="216" key="GridCell.Tab.0.center" timestamp="1589540597710">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="290" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589452962374" />
-    <state width="784" height="290" key="GridCell.Tab.0.left" timestamp="1589452962374">
+    <state width="784" height="216" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589540597710" />
+    <state width="784" height="216" key="GridCell.Tab.0.left" timestamp="1589540597710">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="290" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589452962374" />
-    <state width="784" height="290" key="GridCell.Tab.0.right" timestamp="1589452962374">
+    <state width="784" height="216" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589540597710" />
+    <state width="784" height="216" key="GridCell.Tab.0.right" timestamp="1589540597710">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="290" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589452962374" />
-    <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1589452962365">
+    <state width="784" height="216" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589540597710" />
+    <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1589540597710">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589452962365" />
-    <state width="784" height="216" key="GridCell.Tab.1.center" timestamp="1589452962365">
+    <state width="784" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589540597710" />
+    <state width="784" height="216" key="GridCell.Tab.1.center" timestamp="1589540597710">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589452962365" />
-    <state width="784" height="216" key="GridCell.Tab.1.left" timestamp="1589452962365">
+    <state width="784" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589540597710" />
+    <state width="784" height="216" key="GridCell.Tab.1.left" timestamp="1589540597710">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589452962365" />
-    <state width="784" height="216" key="GridCell.Tab.1.right" timestamp="1589452962365">
+    <state width="784" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589540597710" />
+    <state width="784" height="216" key="GridCell.Tab.1.right" timestamp="1589540597710">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589452962365" />
+    <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589540597710" />
     <state x="398" y="81" key="RollbackChangesDialog" timestamp="1588413655298">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -573,8 +572,23 @@
           <line>37</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day33/RockPaperScissors.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day33/RockPaperScissors.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="N-counta-countb" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>

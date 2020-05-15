@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="717e5483-2c27-4f5f-ba14-5c459cab51a3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyCode2/src/day31/EasyMisCout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCode2/src/day31/ShuoFanHua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCode2/src/day32/ChangeAtHogwarts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCode2/src/day32/NumOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestReflect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -57,10 +63,12 @@
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/DeleteChildStr.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/out/production/DeleteChildStr/com/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeleteChildStr/src/com/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/maven-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/db/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/db/blog.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DuoXianCheng/servlet-blog/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FindKth/.idea/modules.xml" beforeDir="false" />
@@ -154,17 +162,6 @@
       <change beforePath="$PROJECT_DIR$/../MyAtoi/src/com/dai/Solution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyCode2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCode2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDataBase/mybinarytree/PreOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDataBase/mybinarytree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDataBase/mybinarytree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDataBase/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDataBase/sort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/BinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/CardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/MyPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/MyPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Test20191112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Test20191112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Test20191221.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Test20191221.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/TestPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/TestPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybinarytree/myBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybinarytree/myBinTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NumOfZero/.idea/modules.xml" beforeDir="false" />
@@ -313,7 +310,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1bAUzCDWvKFYirOJGAY5YhgY3da" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -486,6 +485,7 @@
       <workItem from="1589018199292" duration="8000" />
       <workItem from="1589093564049" duration="1781000" />
       <workItem from="1589161324803" duration="151000" />
+      <workItem from="1589452971964" duration="2644000" />
     </task>
     <servers />
   </component>

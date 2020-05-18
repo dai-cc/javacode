@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day34/BrokenKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day34/RadiusAndVolumeOfBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day35/BillionMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day35/ChineseBull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36/HexToDec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36/StatisticsLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -317,7 +315,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.BillionMan">
+  <component name="RunManager" selected="Application.HexToDec">
     <configuration name="BillionMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day35.BillionMan" />
       <module name="MyCode2" />
@@ -346,13 +344,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day32.NumOfTwo" />
+    <configuration name="HexToDec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36.HexToDec" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day32.*" />
+          <option name="PATTERN" value="day36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,13 +372,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day33.RockPaperScissors" />
+    <configuration name="StatisticsLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36.StatisticsLetters" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day33.*" />
+          <option name="PATTERN" value="day36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,19 +409,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumOfTwo" />
-      <item itemvalue="Application.RockPaperScissors" />
       <item itemvalue="Application.BrokenKeyboard" />
       <item itemvalue="Application.RadiusAndVolumeOfBall" />
       <item itemvalue="Application.BillionMan" />
+      <item itemvalue="Application.StatisticsLetters" />
+      <item itemvalue="Application.HexToDec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HexToDec" />
+        <item itemvalue="Application.StatisticsLetters" />
         <item itemvalue="Application.BillionMan" />
         <item itemvalue="Application.RadiusAndVolumeOfBall" />
         <item itemvalue="Application.BrokenKeyboard" />
-        <item itemvalue="Application.RockPaperScissors" />
-        <item itemvalue="Application.NumOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -460,6 +458,7 @@
       <workItem from="1589533762487" duration="5742000" />
       <workItem from="1589606978428" duration="4463000" />
       <workItem from="1589690632799" duration="3291000" />
+      <workItem from="1589794611412" duration="3135000" />
     </task>
     <servers />
   </component>
@@ -467,46 +466,46 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="784" height="290" key="GridCell.Tab.0.bottom" timestamp="1589697213792">
+    <state width="784" height="216" key="GridCell.Tab.0.bottom" timestamp="1589797754114">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="290" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589697213792" />
-    <state width="784" height="290" key="GridCell.Tab.0.center" timestamp="1589697213792">
+    <state width="784" height="216" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
+    <state width="784" height="216" key="GridCell.Tab.0.center" timestamp="1589797754114">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="290" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589697213792" />
-    <state width="784" height="290" key="GridCell.Tab.0.left" timestamp="1589697213792">
+    <state width="784" height="216" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
+    <state width="784" height="216" key="GridCell.Tab.0.left" timestamp="1589797754114">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="290" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589697213792" />
-    <state width="784" height="290" key="GridCell.Tab.0.right" timestamp="1589697213792">
+    <state width="784" height="216" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
+    <state width="784" height="216" key="GridCell.Tab.0.right" timestamp="1589797754114">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="290" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589697213792" />
-    <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1589677460760">
+    <state width="784" height="216" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
+    <state width="784" height="216" key="GridCell.Tab.1.bottom" timestamp="1589797754114">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589677460760" />
-    <state width="784" height="216" key="GridCell.Tab.1.center" timestamp="1589677460759">
+    <state width="784" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
+    <state width="784" height="216" key="GridCell.Tab.1.center" timestamp="1589797754114">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589677460759" />
-    <state width="784" height="216" key="GridCell.Tab.1.left" timestamp="1589677460759">
+    <state width="784" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
+    <state width="784" height="216" key="GridCell.Tab.1.left" timestamp="1589797754114">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589677460759" />
-    <state width="784" height="216" key="GridCell.Tab.1.right" timestamp="1589677460760">
+    <state width="784" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
+    <state width="784" height="216" key="GridCell.Tab.1.right" timestamp="1589797754114">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589677460760" />
+    <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
     <state x="398" y="81" key="RollbackChangesDialog" timestamp="1588413655298">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="81" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1588413655298" />
-    <state x="528" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589018921964">
+    <state x="528" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589796432239">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="528" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589018921964" />
+    <state x="528" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589796432239" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -586,8 +585,19 @@
           <line>42</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day36/HexToDec.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="hm.get(num)" language="JAVA" />
+        <watch expression="s[i].substring(0,s[i].length()-2)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day37/StickThePuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day37/UndergroundMiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day38/GetLCA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day38/ReplaceSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -315,14 +315,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.StickThePuzzle">
-    <configuration name="BillionMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day35.BillionMan" />
+  <component name="RunManager" selected="Application.GetLCA">
+    <configuration name="GetLCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day38.GetLCA" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day35.*" />
+          <option name="PATTERN" value="day38.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,13 +344,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadiusAndVolumeOfBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34.RadiusAndVolumeOfBall" />
+    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day38.ReplaceSpace" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day34.*" />
+          <option name="PATTERN" value="day38.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,19 +409,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RadiusAndVolumeOfBall" />
-      <item itemvalue="Application.BillionMan" />
       <item itemvalue="Application.StatisticsLetters" />
       <item itemvalue="Application.HexToDec" />
       <item itemvalue="Application.StickThePuzzle" />
+      <item itemvalue="Application.ReplaceSpace" />
+      <item itemvalue="Application.GetLCA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetLCA" />
+        <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.StickThePuzzle" />
         <item itemvalue="Application.HexToDec" />
         <item itemvalue="Application.StatisticsLetters" />
-        <item itemvalue="Application.BillionMan" />
-        <item itemvalue="Application.RadiusAndVolumeOfBall" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +460,8 @@
       <workItem from="1589690632799" duration="3291000" />
       <workItem from="1589794611412" duration="3135000" />
       <workItem from="1589880992112" duration="612000" />
-      <workItem from="1589965114618" duration="5343000" />
+      <workItem from="1589965114618" duration="5995000" />
+      <workItem from="1590052845479" duration="3786000" />
     </task>
     <servers />
   </component>
@@ -468,46 +469,46 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="784" height="269" key="GridCell.Tab.0.bottom" timestamp="1589969242989">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="784" height="218" key="GridCell.Tab.0.bottom" timestamp="1590057689029">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="269" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589969242989" />
-    <state width="784" height="216" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
-    <state width="784" height="269" key="GridCell.Tab.0.center" timestamp="1589969242989">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="784" height="218" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590057689029" />
+    <state width="784" height="218" key="GridCell.Tab.0.center" timestamp="1590057689029">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="269" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589969242989" />
-    <state width="784" height="216" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
-    <state width="784" height="269" key="GridCell.Tab.0.left" timestamp="1589969242989">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="784" height="218" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590057689029" />
+    <state width="784" height="218" key="GridCell.Tab.0.left" timestamp="1590057689029">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="269" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589969242989" />
-    <state width="784" height="216" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
-    <state width="784" height="269" key="GridCell.Tab.0.right" timestamp="1589969242989">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="784" height="218" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590057689029" />
+    <state width="784" height="218" key="GridCell.Tab.0.right" timestamp="1590057689029">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="269" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589969242989" />
-    <state width="784" height="216" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
-    <state width="784" height="200" key="GridCell.Tab.1.bottom" timestamp="1589968179456">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="784" height="218" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590057689029" />
+    <state width="784" height="218" key="GridCell.Tab.1.bottom" timestamp="1590057689029">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="200" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589968179456" />
-    <state width="784" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
-    <state width="784" height="200" key="GridCell.Tab.1.center" timestamp="1589968179456">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="784" height="218" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590057689029" />
+    <state width="784" height="218" key="GridCell.Tab.1.center" timestamp="1590057689029">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="200" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589968179456" />
-    <state width="784" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
-    <state width="784" height="200" key="GridCell.Tab.1.left" timestamp="1589968179456">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="784" height="218" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1590057689029" />
+    <state width="784" height="218" key="GridCell.Tab.1.left" timestamp="1590057689029">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="200" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589968179456" />
-    <state width="784" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
-    <state width="784" height="200" key="GridCell.Tab.1.right" timestamp="1589968179456">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="784" height="218" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1590057689029" />
+    <state width="784" height="218" key="GridCell.Tab.1.right" timestamp="1590057689029">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="200" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589968179456" />
-    <state width="784" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589797754114" />
+    <state width="784" height="218" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1590057689029" />
     <state x="398" y="81" key="RollbackChangesDialog" timestamp="1588413655298">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -605,6 +606,14 @@
           <url>file://$PROJECT_DIR$/src/day37/StickThePuzzle.java</url>
           <line>42</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day38/GetLCA.java</url>
+          <line>14</line>
+          <properties class="day38.GetLCA" method="getLCA">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

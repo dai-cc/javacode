@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2128f4d-0d02-4ba9-a5ef-149d52dd5eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day39/HuiWenChuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day39/PrintDoubleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40/DeleteCommonChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day40/SentenceReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddBinary/.idea/modules.xml" beforeDir="false" />
@@ -316,7 +316,21 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.HuiWenChuan">
+  <component name="RunManager" selected="Application.SentenceReverse">
+    <configuration name="DeleteCommonChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day40.DeleteCommonChar" />
+      <module name="MyCode2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day40.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetLCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day38.GetLCA" />
       <module name="MyCode2" />
@@ -359,27 +373,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day38.ReplaceSpace" />
+    <configuration name="SentenceReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day40.SentenceReverse" />
       <module name="MyCode2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day38.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StickThePuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day37.StickThePuzzle" />
-      <module name="MyCode2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day37.*" />
+          <option name="PATTERN" value="day40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,19 +410,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StickThePuzzle" />
-      <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.GetLCA" />
       <item itemvalue="Application.PrintDoubleArray" />
       <item itemvalue="Application.HuiWenChuan" />
+      <item itemvalue="Application.DeleteCommonChar" />
+      <item itemvalue="Application.SentenceReverse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SentenceReverse" />
+        <item itemvalue="Application.DeleteCommonChar" />
         <item itemvalue="Application.HuiWenChuan" />
         <item itemvalue="Application.PrintDoubleArray" />
         <item itemvalue="Application.GetLCA" />
-        <item itemvalue="Application.ReplaceSpace" />
-        <item itemvalue="Application.StickThePuzzle" />
       </list>
     </recent_temporary>
   </component>
@@ -464,6 +464,7 @@
       <workItem from="1589965114618" duration="5995000" />
       <workItem from="1590052845479" duration="3786000" />
       <workItem from="1590139026451" duration="5343000" />
+      <workItem from="1590226019465" duration="977000" />
     </task>
     <servers />
   </component>
@@ -471,46 +472,46 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="268" key="GridCell.Tab.0.bottom" timestamp="1590155162390">
+    <state width="784" height="214" key="GridCell.Tab.0.bottom" timestamp="1590227005510">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="269" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589969242989" />
-    <state width="1237" height="268" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590155162390" />
-    <state width="1237" height="268" key="GridCell.Tab.0.center" timestamp="1590155162389">
+    <state width="784" height="214" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590227005510" />
+    <state width="784" height="214" key="GridCell.Tab.0.center" timestamp="1590227005510">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="269" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589969242989" />
-    <state width="1237" height="268" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590155162389" />
-    <state width="1237" height="268" key="GridCell.Tab.0.left" timestamp="1590155162389">
+    <state width="784" height="214" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590227005510" />
+    <state width="784" height="214" key="GridCell.Tab.0.left" timestamp="1590227005510">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="269" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589969242989" />
-    <state width="1237" height="268" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590155162389" />
-    <state width="1237" height="268" key="GridCell.Tab.0.right" timestamp="1590155162390">
+    <state width="784" height="214" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590227005510" />
+    <state width="784" height="214" key="GridCell.Tab.0.right" timestamp="1590227005510">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="269" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589969242989" />
-    <state width="1237" height="268" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590155162390" />
-    <state width="784" height="199" key="GridCell.Tab.1.bottom" timestamp="1590155160735">
+    <state width="784" height="214" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590227005510" />
+    <state width="784" height="214" key="GridCell.Tab.1.bottom" timestamp="1590227005511">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="200" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589968179456" />
-    <state width="784" height="199" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590155160735" />
-    <state width="784" height="199" key="GridCell.Tab.1.center" timestamp="1590155160735">
+    <state width="784" height="214" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590227005511" />
+    <state width="784" height="214" key="GridCell.Tab.1.center" timestamp="1590227005511">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="200" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589968179456" />
-    <state width="784" height="199" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1590155160735" />
-    <state width="784" height="199" key="GridCell.Tab.1.left" timestamp="1590155160735">
+    <state width="784" height="214" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1590227005511" />
+    <state width="784" height="214" key="GridCell.Tab.1.left" timestamp="1590227005511">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="200" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589968179456" />
-    <state width="784" height="199" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1590155160735" />
-    <state width="784" height="199" key="GridCell.Tab.1.right" timestamp="1590155160735">
+    <state width="784" height="214" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1590227005511" />
+    <state width="784" height="214" key="GridCell.Tab.1.right" timestamp="1590227005511">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="784" height="200" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589968179456" />
-    <state width="784" height="199" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1590155160735" />
+    <state width="784" height="214" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1590227005511" />
     <state x="398" y="81" key="RollbackChangesDialog" timestamp="1588413655298">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -618,6 +619,11 @@
           <url>file://$PROJECT_DIR$/src/day39/PrintDoubleArray.java</url>
           <line>22</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day40/SentenceReverse.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day38/GetLCA.java</url>

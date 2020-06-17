@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 定义bean对象，注意这里是默认通过无参的构造方法生成对象
+        没有设置scope默认是单例的-->
+<!--    <bean id="duck1" class="dai.model.Duck">-->
+<!--        &lt;!&ndash;property通过属性设置参数&ndash;&gt;-->
+<!--        <property name="name" value="LadyGaga" />-->
+<!--        <property name="age" value="10" />-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash; 通过有参的构造方法定义bean对象&ndash;&gt;-->
+<!--    <bean id="duck2" class="dai.model.Duck" scope="prototype">-->
+<!--        &lt;!&ndash;constructor-arg通过构造方法设置参数&ndash;&gt;-->
+<!--        <constructor-arg name="name" value="烤鸭"/>-->
+<!--        <constructor-arg name ="age" value="2"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;引用已有的bean对象：ref&ndash;&gt;-->
+<!--    <bean id="duckShop" class="dai.model.DuckShop">-->
+<!--        <property name="ducks">-->
+<!--            <list>-->
+<!--                <ref bean="duck1"/>-->
+<!--                <ref bean="duck2"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean id="p1" class="dai.model.Person">-->
+<!--        <property name="duck" ref="duck1"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;通过静态方法实例化对象&ndash;&gt;-->
+<!--    <bean id="duck3" class="dai.model.DuckFactory" factory-method="create"></bean>-->
+
+<!--    &lt;!&ndash;通过实例方法实例化对象&ndash;&gt;-->
+<!--    <bean id="duckFactory" class="dai.model.DuckFactory"/>-->
+<!--    <bean id="duck4" factory-bean="duckFactory" factory-method="create2"/>-->
+
+    <bean id="test" class="dai.model.Test"/>
+</beans>

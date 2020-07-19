@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dai.mapper.ArticleMapper">
+  <resultMap id="BaseResultMap" type="dai.model.Article">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <association property="user2" resultMap="dai.mapper.User2Mapper.BaseResultMap" columnPrefix="prefix_user2_"/>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from article
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="dai.model.Article">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into article (title, content, user_id, 
+      create_time)
+    values (#{title,jdbcType=VARCHAR}, #{content,jdbcType=VARCHAR}, #{userId,jdbcType=INTEGER}, 
+      #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="dai.model.Article">
+    update article
+    set title = #{title,jdbcType=VARCHAR},
+      content = #{content,jdbcType=VARCHAR},
+      user_id = #{userId,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select a.id, a.title, a.content, a.user_id, a.create_time,u.id prefix_user2_id,
+    u.name prefix_user2_name,u.create_time prefix_user2_create_time
+    from article a join user2 u on a.user_id=u.id
+    where a.id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, title, content, user_id, create_time
+    from article
+  </select>
+  <select id="queryByUserId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, title, content, user_id, create_time
+    from article
+    where user_id = #{id,jdbcType=INTEGER}
+  </select>
+</mapper>

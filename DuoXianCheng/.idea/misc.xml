@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../DuoXianChen/maven-test" />
+    <file type="web" url="file://$PROJECT_DIR$/book-sys" />
     <file type="web" url="file://$PROJECT_DIR$/servlet-blog" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,6 +10,9 @@
       <list>
         <option value="$PROJECT_DIR$/../DuoXianChen/maven-test/pom.xml" />
         <option value="$PROJECT_DIR$/servlet-blog/pom.xml" />
+        <option value="$PROJECT_DIR$/JVM-study/pom.xml" />
+        <option value="$PROJECT_DIR$/thread-adv-study/pom.xml" />
+        <option value="$PROJECT_DIR$/book-sys/pom.xml" />
       </list>
     </option>
   </component>

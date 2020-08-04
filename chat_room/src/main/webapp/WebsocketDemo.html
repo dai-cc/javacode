@@ -1,0 +1,74 @@
+<!--客户端的代码，也就是一个简单的页面-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>websocket demo</title>
+</head>
+<body>
+<!-- 在页面中加一个输入框，表示客户端发送的消息-->
+<input type="text" id="text">
+<br>
+<!--点击send按钮就会自动调用send()函数-->
+<button onclick="send()">send</button>
+<button onclick="close()">close</button>
+<div id="message"></div>
+
+<!-- script 标签中包含的内容就是js代码-->
+<script>
+    /*客户端建立连接的代码*/
+    // 1. 和服务器建立连接
+    var websocket = new WebSocket("ws://127.0.0.1:8080/chat_room/webSocketTest");
+
+    // 2. 注册回调方法
+    websocket.onopen = function(){ //定义一个匿名函数
+        // 连接建立成功后调用的方法
+        console.log("连接建立成功");//打印一行日志到控制台，类似于java中的system.out.println
+    }
+
+    websocket.onerror = function () {
+        // 连接出现异常调用的方法
+        console.log("连接异常");
+    }
+
+    websocket.onclose = function () {
+        // 连接关闭时调用的方法
+        // 连接可能时客户端主动关闭，也可能是服务器主动关闭，所以客户端和服务端都有这个方法
+        console.log("连接关闭");
+    }
+
+    websocket.onmessage = function (event) {
+        // 收到消息时调用的方法
+        // event是websocket中定义好的对象
+        // 使用其中的data属性来获取到服务器发过来的真实的消息
+        console.log(event.data);
+    }
+
+    window.onbeforeunload = function () {
+        // 这个方法会在网页被关闭时自动调用到
+        // 当关闭网页时会触发这个函数，他会主动和服务器先断开连接
+        websocket.close();
+    }
+
+
+    // 3. 实现send 和close 函数
+    function send() {
+        // 把输入框中的内容发送到服务器端
+        // ① 先获取到输入框的内容
+        var message = document.getElementById("text").value;
+        // ② 使用websocket把数据发送出去
+        websocket.send(message);
+        console.log("发送成功："+message);
+    }
+
+    function close() {
+        websocket.close();
+        console.log("关闭连接");
+    }
+
+</script>
+</body>
+</html>

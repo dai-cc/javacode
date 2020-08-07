@@ -17,7 +17,7 @@ import java.sql.SQLException;
  *   2. 双重IF判定
  *   3. volatile*/
 public class DBUtil {
-    //    private static final String URL = "jdbc:mysql://127.0.0.1:3306/java13_chatroom?character=utf-8&useSSL=true";
+
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/java13_chatroom?characterEncoding=utf-8&useSSL=true";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
